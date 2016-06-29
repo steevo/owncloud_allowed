@@ -1,0 +1,9 @@
+services:
+    steevobb.owncloud_allowed.listener:
+        class: steevobb\owncloud_allowed\event\listener
+        arguments:
+            - @request
+            - @template
+            - @user
+        tags:
+            - { name: event.listener }
