@@ -8,7 +8,7 @@
 *
 */
 
-namespace steevobb\owncloud_allowed;
+namespace steevobb\owncloudallowed;
 
 /**
 * Extension class
