@@ -8,7 +8,7 @@
 *
 */
 
-namespace steevobb\owncloud_allowed\migrations\v10x;
+namespace steevobb\owncloudallowed\migrations\v10x;
 
 /**
 * Migration stage 1: Initial schema changes to the database

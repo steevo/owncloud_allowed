@@ -1,6 +1,6 @@
 services:
-    steevobb.owncloud_allowed.listener:
-        class: steevobb\owncloud_allowed\event\listener
+    steevobb.owncloudallowed.listener:
+        class: steevobb\owncloudallowed\event\listener
         arguments:
             - @request
             - @template

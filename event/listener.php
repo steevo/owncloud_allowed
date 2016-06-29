@@ -8,7 +8,7 @@
 *
 */
 
-namespace steevobb\owncloud_allowed\event;
+namespace steevobb\owncloudallowed\event;
 
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 
@@ -79,7 +79,7 @@ class listener implements EventSubscriberInterface
 			'user_owncloud'	=> $this->request->variable('owncloud', $user_owncloud),
 		));
 
-		$this->user->add_lang_ext('steevobb/owncloud_allowed', 'owncloud');
+		$this->user->add_lang_ext('steevobb/owncloudallowed', 'owncloud');
 
 		$this->template->assign_vars(array(
 			'OWNCLOUD_ALLOWED'			=> self::OWNCLOUD_ALLOWED,
